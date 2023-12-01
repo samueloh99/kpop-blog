@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 
 export function Header() {
   return (
-    <div className="main-container border border-black flex flex-row gap-10 h-[60px] justify-center items-center">
+    <div className="main-container flex flex-row gap-10 h-[60px] justify-center items-center">
       <h1 className="text-highlightColor text-2xl font-bold">KPOP SPOT</h1>
       <ul className="flex flex-row gap-5 font-bold justify-center items-center">
         <li>Explore</li>
