@@ -1,3 +1,4 @@
+import { CategorieSection } from "@/components/categoriesection";
 import { HeroSection } from "@/components/herosection";
 import { NewsSection } from "@/components/newssection";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="flex flex-col min-h-full h-full">
       <HeroSection />
       <NewsSection />
+      <CategorieSection />
     </main>
   );
 }
