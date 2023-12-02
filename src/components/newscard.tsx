@@ -11,8 +11,8 @@ interface NewsCardProps {
 
 export function NewsCard({ tag, time, title }: NewsCardProps) {
   return (
-    <div className="flex flex-row gap-5 justify-center items-center cursor-pointer">
-      <Link href={"/news/1"}>
+    <Link href={"/news/1"}>
+      <div className="flex flex-row gap-5 justify-center items-center cursor-pointer">
         <div className="w-[250px] h-full flex justify-center items-start">
           <Image src={Banner1} alt="image" width={250} height={250} />
         </div>
@@ -25,7 +25,7 @@ export function NewsCard({ tag, time, title }: NewsCardProps) {
           </div>
           <h4 className="font-bold text-2xl">{title}</h4>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
