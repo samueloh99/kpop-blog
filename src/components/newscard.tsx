@@ -7,15 +7,20 @@ interface NewsCardProps {
   title: string;
   tag: string;
   time: string;
+  withImage: boolean;
 }
 
-export function NewsCard({ tag, time, title }: NewsCardProps) {
+export function NewsCard({ tag, time, title, withImage }: NewsCardProps) {
   return (
     <Link href={"/news/1"}>
-      <div className="flex flex-row gap-5 justify-center items-center cursor-pointer">
-        <div className="w-[250px] h-full flex justify-center items-start">
-          <Image src={Banner1} alt="image" width={250} height={250} />
-        </div>
+      <div className="flex flex-row gap-5 justify-center items-center cursor-pointer py-5">
+        {withImage ? (
+          <div className="w-[250px] h-full flex justify-center items-start">
+            <Image src={Banner1} alt="image" width={250} height={250} />
+          </div>
+        ) : (
+          ""
+        )}
         <div className="flex flex-col w-full gap-4">
           <div className="flex flex-row gap-2">
             <div className="bg-pink-400 rounded-lg px-2">

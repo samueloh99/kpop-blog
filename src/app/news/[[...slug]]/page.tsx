@@ -1,7 +1,3 @@
-import { CategorieSection } from "@/components/categoriesection";
-import { HeroSection } from "@/components/herosection";
-import { NewsRow } from "@/components/newsrow";
-import { NewsSection } from "@/components/newssection";
 import { CommentsPosts } from "@/components/posts/commentsposts";
 import { ContentPosts } from "@/components/posts/contentposts";
 import { HeaderPost } from "@/components/posts/headerposts";
