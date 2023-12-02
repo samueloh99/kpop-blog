@@ -2,7 +2,7 @@ import { NewsCard } from "./newscard";
 
 export function NewsRow() {
   return (
-    <div className="main-container flex flex-col gap-10 w-full justify-start items-start">
+    <div className="main-container flex flex-col gap-10 w-full justify-start items-start pb-20">
       <h4 className="font-bold text-2xl">Últimas notícias</h4>
       <div className="flex flex-col w-full px-5 justify-start items-start bg-white divide-y divide-slate-300">
         <NewsCard

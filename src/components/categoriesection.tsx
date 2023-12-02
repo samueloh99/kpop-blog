@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function CategorieSection() {
   return (
-    <div className="main-container flex flex-row pb-20">
+    <div className="main-container flex flex-row">
       <div className="grid grid-cols-4 w-full gap-5">
         <div className="grid grid-rows-2 gap-5">
           <div className="flex relative rounded-lg overflow-hidden">
