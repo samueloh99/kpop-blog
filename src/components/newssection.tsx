@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import Banner1 from "../../public/banner1.webp";
-import { NewsCard } from "./newscard";
 import { Badge } from "./ui/badge";
 import Link from "next/link";
 import { NewsRiver } from "./newsriver";
@@ -23,7 +22,7 @@ export function NewsSection() {
           </div>
         </Link>
       </div>
-      <NewsRiver />
+      <NewsRiver typeNews="Trending agora" />
     </div>
   );
 }

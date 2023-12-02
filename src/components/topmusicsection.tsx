@@ -32,7 +32,7 @@ const data = [
 export function TopMusicSection() {
   return (
     <div className="main-container flex flex-col w-full pb-40">
-      <div className="flex flex-row w-full justify-between items-center bg-highlightColor text-white p-5 font-bold text-2xl">
+      <div className="flex flex-row w-full justify-between items-center bg-highlightColor text-white p-5 font-bold text-xl">
         <p>HOT 100</p>
         <p>SEMANA DEZEMBRO 2, 2023</p>
       </div>
